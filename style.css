@@ -1,0 +1,52 @@
+html,body{
+    margin:0px auto;
+    padding:0px;
+    background-color:black;
+
+}
+
+
+
+
+#watch{
+    
+    color: rgb(25, 238, 96);
+    font-size: 100px;
+
+}
+
+#grid{
+    background-color: black;
+    text-align: center;
+    margin-top: 15%;
+    
+
+}
+
+button{
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1::after{
+    content:'|';
+    margin-left:5px;
+    opacity:1;
+    animation: piscar .7s infinite;
+}
+
+@keyframes piscar{
+
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;
+    }
+}
+
